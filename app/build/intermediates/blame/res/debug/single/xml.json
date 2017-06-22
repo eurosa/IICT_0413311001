@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\xml\\widget.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\xml\\apns.xml",
+        "source": "C:\\Users\\radhason\\.android\\build-cache\\41b5f0e9e49e9caeb2c1d423448bad2454766882\\output\\res\\xml\\apns.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\xml\\mms_config.xml",
+        "source": "C:\\Users\\radhason\\.android\\build-cache\\41b5f0e9e49e9caeb2c1d423448bad2454766882\\output\\res\\xml\\mms_config.xml"
+    }
+]

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="colorBlood">#7E3517</color>
+    <color name="colorRed">#451207</color>
+    <color name="colorWhite">#228B22</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="lightRed">#C70039</color>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust">
+            <enum name="none" value="0"/>
+            <enum name="adjust_width" value="1"/>
+            <enum name="adjust_height" value="2"/>
+        </attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <integer name="google_play_services_version">8115000</integer>
+    <string name="album_name">CameraSample</string>
+    <string name="app_name">IICT BUET</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="auto_select_apn">Automatically Select APNs</string>
+    <string name="auto_select_failed">Auto-select APNs has failed, try picking your carrier from the preset list instead
+        in MMS settings</string>
+    <string name="auto_select_multiple_apns">Multiple different APNs were found for your carrier, which
+        will be listed after clicking the message below. If one of the following doesn\'t work for you, try another
+        and one of them should work correctly!\n\nRemember you can always get to this APN selection by going into
+        Settings, going to the MMS Settings page, and then selecting the \"Automatically Select APNs\" option.\n\nYou
+        also have the option under MMS settings to select from a list of preset APNs that could work instead of
+        these that have been automatically found.</string>
+    <string name="btnIntend">Take (big) Picture</string>
+    <string name="btnIntendS">Take (small) Picture</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="dl_failure_notification">Couldn\'t download message <ns1:g id="subject">%1$s</ns1:g> from <ns1:g id="from">%2$s</ns1:g>.</string>
+    <string name="download_later">Can\'t download right now. Try again later.</string>
+    <string name="error">Error</string>
+    <string name="explenation">Sorry, but i could not find a camera on your device.</string>
+    <string name="intro_name">Emergency Button Help</string>
+    <string name="invalid_destination">Invalid destination address.</string>
+    <string name="message_delivered">Message Delivered</string>
+    <string name="message_not_delivered">Message Not Delivered</string>
+    <string name="message_queued">Currently can\'t send your message. It will be sent when the service becomes available.</string>
+    <string name="no_apn">No APN specified for the app, you need to set it up in settings!</string>
+    <string name="no_subject">(No subject)</string>
+    <string name="nosdcard">There is no SD card</string>
+    <string name="ok">OK</string>
+    <string name="questionmark">\?!</string>
+    <string name="sending_name">Sending message....</string>
+    <string name="service_message_not_found">Message expired or not available.</string>
+    <string name="service_network_problem">Couldn\'t send due to network problem.</string>
+    <string name="service_not_activated">Service not activated on network.</string>
+    <string name="unknown_sender">Unknown sender</string>
+    <string name="widget_error">Widget Error</string>
+    <string name="widget_loading">Widget Loading</string>
+    <string name="widget_message">Widget Message</string>
+    <string name="widget_name">Emergency Button</string>
+    <string name="write_settings_permission">Starting with Android Marshmallow, multimedia messaging applications can no longer directly request
+        to send messages over your mobile data, which is a requirement for sending things like pictures.\n\nTo be able to send messages, the app
+        will need the write settings permission, which must be explicitly granted. Without this, multimedia messages will fail to send.</string>
+    <style name="Theme" parent="android:Theme">
+	</style>
+    <style name="Theme.EmergencyActivity">
+	    <item name="android:windowBackground">@drawable/appbackground</item>
+	    <item name="android:colorForeground">#fff</item>
+	</style>
+    <style name="Theme.IntroActivity">
+		<item name="@android:style/Theme.Dialog"/>
+	    <item name="android:colorForeground">#fff</item>
+	</style>
+    <style name="Theme.Main">
+	    <item name="android:windowBackground">@drawable/appbackground</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:colorForeground">#fff</item>
+	</style>
+</resources>

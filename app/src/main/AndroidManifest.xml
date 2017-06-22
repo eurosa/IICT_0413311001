@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.iictbuet.pgd0413311001"
+      android:versionCode="7"
+      android:versionName="1.5"
+      >
+    <application android:icon="@drawable/button_green" android:label="@string/app_name" android:debuggable="true"
+
+        android:largeHeap="true"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name="com.iictbuet.pgd0413311001.EmergencyButtonActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Main"
+                  android:launchMode="standard"
+                  android:windowNoTitle="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iictbuet.pgd0413311001.EmergencyActivity"
+                  android:label="@string/sending_name"
+                  android:theme="@style/Theme.EmergencyActivity"
+                  android:launchMode="singleInstance"
+                  >
+        </activity>
+
+        <activity android:name="com.iictbuet.pgd0413311001.IntroActivity"
+                  android:label="@string/intro_name"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:launchMode="singleInstance"
+                  >
+        </activity>
+        <activity android:name="com.iictbuet.pgd0413311001.VideoStackActivity"></activity>
+        <activity
+            android:label="@string/app_name"
+            android:name="com.iictbuet.pgd0413311001.Locator$DgCamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.iictbuet.pgd0413311001.NoCamera" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.iictbuet.pgd0413311001.NoSDCard" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+		<!-- Broadcast Receiver that will process AppWidget updates -->
+		<receiver android:name="com.iictbuet.pgd0413311001.EmergencyWidgetProvider" android:label="@string/widget_name">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget" />
+		</receiver>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Service to perform web API queries
+        <service android:name=".EmergencyButton$UpdateService" />-->
+        <service android:name="com.android.mms.transaction.TransactionService"/>
+
+        <receiver android:name="com.klinker.android.send_message.SentReceiver" >
+            <intent-filter>
+                <action android:name="com.iictbuet.pgd0413311001.SMS_SENT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.klinker.android.send_message.DeliveredReceiver" >
+            <intent-filter>
+                <action android:name="com.iictbuet.pgd0413311001.SMS_DELIVERED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.iictbuet.pgd0413311001.MyService"></service>
+    </application>
+    
+    
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+</manifest> 

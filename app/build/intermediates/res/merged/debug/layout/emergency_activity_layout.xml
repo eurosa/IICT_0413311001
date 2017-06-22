@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainEmergencyView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	android:background="@color/colorBlood"
+	>
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+		
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/satellite_main"
+				/>
+			<ImageView
+		    	android:id="@+id/imgLocation"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center_vertical"
+				android:src="@drawable/x_or_v"
+				/>
+		    <TextView
+		    	android:id="@+id/txtLocation"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:gravity="center_vertical"
+		        android:text="Getting Current Location"
+		        />
+
+
+		</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<com.iictbuet.pgd0413311001.RadarView
+			android:id="@+id/radarView"
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:layout_gravity="center_horizontal"></com.iictbuet.pgd0413311001.RadarView>
+ </LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+
+			<ImageView   
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/text_sms"
+				/>
+			<ImageView
+		    	android:id="@+id/imgSMS"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center_vertical"
+				android:src="@drawable/x_or_v"
+				/>
+		    <TextView  
+		    	android:id="@+id/txtSMS"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="fill_parent" 
+		        android:gravity="center_vertical"
+		        android:text="Sending SMS"
+		        android:paddingLeft="5px"
+		        />     
+		</LinearLayout>
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+			<ImageView   
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/email_sms"
+				/>
+			<ImageView
+		    	android:id="@+id/imgEmail"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center_vertical"
+				android:src="@drawable/x_or_v"
+				/>
+		    <TextView  
+		    	android:id="@+id/txtEmail"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="fill_parent" 
+		        android:gravity="center_vertical"
+		        android:text="Sending Email"
+		        android:paddingLeft="5px"
+		        />     
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:weightSum="1.0"
+		    >
+			<Button
+			    android:id="@+id/btnConfigure"
+			    android:layout_weight="1"
+				android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="bottom"
+		        android:text="Edit Information"
+			    />
+			<!--<Button-->
+			<!--android:id="@+id/btnOkDone"-->
+			<!--android:layout_weight="0.5"-->
+			<!--android:layout_width="0dip"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_gravity="bottom"-->
+			<!--android:text="Hide"-->
+			<!--/>-->
+		</LinearLayout>
+		    
+	</LinearLayout>
+</ScrollView>

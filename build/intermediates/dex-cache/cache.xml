@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_769a62a56cec1ff47ce93e822d7b0a16e0c2fbca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.android\build-cache\fdddb6cc9fcaac308be932445a8eb3062dc01f95\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_61422494d4c2d2d17d978608fb423e786448ba72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_3e8e06e8663fc23825f6b18c69f04c9195d4a7c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.5.0\d737653459be272e881d51024274fa4785225641\okhttp-urlconnection-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d737653459be272e881d51024274fa4785225641">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.5.0_dfcc4995a4e0f835eb6cbf1c08ae164622c1c86a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.android\build-cache\6f42a11bea2c1a15d7e866a18ca599176264e772\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_704a70e6370d0f6de41e1b5cf341299d1c573109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.android\build-cache\d1c3f744ba8c448f01e0f5c7da3c248423aa1a29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_276f6af99f3ad5903d4afe508f6bf427df3d50a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okio-1.6.0_f69caae1305683896d74e243f0e533c5cbee1170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.android\build-cache\41b5f0e9e49e9caeb2c1d423448bad2454766882\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5ae814cbca3f17d9e3a1f5200efdc6b85ca9d6c7">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_b6787fa41cdb7b5da5da69e7397b889f4971c9ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.android\build-cache\fdddb6cc9fcaac308be932445a8eb3062dc01f95\output\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_17ac46e8a342b76d609b2937934a8165c3936983.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.klinkerapps\logger\1.0.3\852cf12fb477b8ac64919a9bfab5c98e16dc0f62\logger-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="852cf12fb477b8ac64919a9bfab5c98e16dc0f62">
+        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\logger-1.0.3_a1e2a3450b2cc3aca5e837b924f52b5a17cf326e.jar" />
+    </item>
+
+</items>

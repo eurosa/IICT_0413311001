@@ -1,0 +1,4 @@
+#Mon May 29 18:35:50 BDT 2017
+base.0=E\:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

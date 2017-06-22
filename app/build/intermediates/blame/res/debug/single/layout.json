@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\intro_activity_layout.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\intro_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emergency_activity_layout.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\emergency_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\credits_dialog.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\credits_dialog.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_camera.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\no_camera.xml"
+    },
+    {
+        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_sdcard.xml",
+        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\layout\\no_sdcard.xml"
+    }
+]

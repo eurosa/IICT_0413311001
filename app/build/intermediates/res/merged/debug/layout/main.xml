@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+    android:background="@color/colorBlood"
+
+    >
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <RelativeLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingRight="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btnHelp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/question_small"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+            
+        <ImageButton
+            android:id="@+id/btnEmergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/emergency_button"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            />
+        <LinearLayout 
+            android:id="@+id/linEmail"  
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            > 
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingRight="10dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/main_email_color"
+
+                    />
+                <EditText 
+                    android:id="@+id/txtEmail"  
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"        
+                    android:hint="Email"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnEmailPlus"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/grey_plus"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+       </LinearLayout>
+        
+       <!-- Note that the special padding for this TextView is to compensate for having no capital letters -->
+       <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="- and/or -"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:paddingTop="0sp"
+            android:paddingBottom="3sp"
+            />
+
+        <LinearLayout 
+            android:id="@+id/linPhoneNo"  
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phone_main_color"
+                    />
+                <EditText 
+                    android:id="@+id/txtPhoneNo"  
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"        
+                    android:hint="SMS Number"
+                    />
+                <ImageButton
+                    android:id="@+id/btnPhoneNoPlus"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/grey_plus"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout 
+            android:id="@+id/linMessage"  
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/message_sms"
+                    />
+            <EditText 
+                android:id="@+id/txtMessage"  
+                android:hint="Message"
+                android:layout_width="fill_parent" 
+                android:layout_height="120px"
+                android:gravity="top"
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+
+
+            <!--<ImageView-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="34dp"-->
+                <!--android:id="@+id/imgPreview" />-->
+
+          <!---->
+
+        </LinearLayout>
+        <!--<FrameLayout-->
+            <!--android:id="@+id/videoview"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/btnCapturePicture"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:text="Add Image" />-->
+        <FrameLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            >
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mybutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record"
+                />
+
+            <Button
+                android:id="@+id/ibCapture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Capture"
+                />
+            <FrameLayout
+                android:id="@+id/flBtnContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+
+
+
+
+
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView1"-->
+                    <!--android:layout_width="50dip"-->
+                    <!--android:layout_height="50dip"-->
+
+                    <!--android:src="@drawable/ic_menu_camera" />-->
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/ibRetake"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Retake"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/ibUse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Use"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
+
