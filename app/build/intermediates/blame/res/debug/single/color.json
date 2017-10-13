@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\radhason\\.android\\build-cache\\d1c3f744ba8c448f01e0f5c7da3c248423aa1a29\\output\\res\\color\\common_signin_btn_text_dark.xml"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_light.xml",
+        "source": "/root/.android/build-cache/9763a15e2f77bbb85b14671558e32c679f3e3b8c/output/res/color/common_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
-        "source": "C:\\Users\\radhason\\.android\\build-cache\\d1c3f744ba8c448f01e0f5c7da3c248423aa1a29\\output\\res\\color\\common_signin_btn_text_light.xml"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_dark.xml",
+        "source": "/root/.android/build-cache/9763a15e2f77bbb85b14671558e32c679f3e3b8c/output/res/color/common_signin_btn_text_dark.xml"
     }
 ]

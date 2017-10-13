@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-ldpi/icon.png"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_menu_camera.png",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-ldpi\\ic_menu_camera.png"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_menu_camera.png",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-ldpi/ic_menu_camera.png"
     }
 ]

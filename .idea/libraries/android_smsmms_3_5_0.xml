@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="android-smsmms-3.5.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/41b5f0e9e49e9caeb2c1d423448bad2454766882/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/41b5f0e9e49e9caeb2c1d423448bad2454766882/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/7599b5ea375baeac81b5a5f8c0f8e6a8cd75374b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/7599b5ea375baeac81b5a5f8c0f8e6a8cd75374b/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -2,94 +2,112 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_769a62a56cec1ff47ce93e822d7b0a16e0c2fbca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.android\build-cache\fdddb6cc9fcaac308be932445a8eb3062dc01f95\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/root/.android/build-cache/8dded60e3df1fc4fd7ad180e73ab6d5a95ea86f9/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_61422494d4c2d2d17d978608fb423e786448ba72.jar" />
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d64c56625631f9776b04aedcb13d407b70b7266/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\radhason\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_3e8e06e8663fc23825f6b18c69f04c9195d4a7c0.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc7b1e56967a0733e7cc7d32cf311ed6ff7a21a5/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.5.0\d737653459be272e881d51024274fa4785225641\okhttp-urlconnection-2.5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d737653459be272e881d51024274fa4785225641">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.5.0_dfcc4995a4e0f835eb6cbf1c08ae164622c1c86a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.android\build-cache\6f42a11bea2c1a15d7e866a18ca599176264e772\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_704a70e6370d0f6de41e1b5cf341299d1c573109.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.android\build-cache\d1c3f744ba8c448f01e0f5c7da3c248423aa1a29\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_276f6af99f3ad5903d4afe508f6bf427df3d50a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\okio-1.6.0_f69caae1305683896d74e243f0e533c5cbee1170.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.android\build-cache\41b5f0e9e49e9caeb2c1d423448bad2454766882\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5ae814cbca3f17d9e3a1f5200efdc6b85ca9d6c7">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\classes_b6787fa41cdb7b5da5da69e7397b889f4971c9ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.android\build-cache\fdddb6cc9fcaac308be932445a8eb3062dc01f95\output\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_17ac46e8a342b76d609b2937934a8165c3936983.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\radhason\.gradle\caches\modules-2\files-2.1\com.klinkerapps\logger\1.0.3\852cf12fb477b8ac64919a9bfab5c98e16dc0f62\logger-1.0.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.klinkerapps/logger/1.0.3/852cf12fb477b8ac64919a9bfab5c98e16dc0f62/logger-1.0.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="852cf12fb477b8ac64919a9bfab5c98e16dc0f62">
-        <dex dex="E:\IICT_06_01_2017\IICT_26_05_2017\app\build\intermediates\pre-dexed\debug\logger-1.0.3_a1e2a3450b2cc3aca5e837b924f52b5a17cf326e.jar" />
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/logger-1.0.3_58258fbe1e2bd557535167c2751d83302f6da0ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_cb45de25033c3665320dd2cafe5df424fd028375/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_abbb6cf6565e5391600f42e794cd7651128fa41b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/9763a15e2f77bbb85b14671558e32c679f3e3b8c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69f06bc2d8d89feae7c790bb1678a042b68ac63f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/8dded60e3df1fc4fd7ad180e73ab6d5a95ea86f9/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_def5d5b32cf78db87f933a8b373088aa65c8fefa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/bb648308abb172e581ff1a02ba0b8b0bb2298785/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7eb4790a9caad63f53f30aecb9e016ad4cbb06c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a9cbb8f046a4afec8842e9f8cb3d56d2a85d818">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_03e3a89c90d93866f0181b12e00e334cf7a5886a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/7599b5ea375baeac81b5a5f8c0f8e6a8cd75374b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5ae814cbca3f17d9e3a1f5200efdc6b85ca9d6c7">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9e5d5d051d6eab2bca5d4491e4a38b3fdace76c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.5.0_f1e652853ecd9d2f8b650c913738285de6b149f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.5.0/d737653459be272e881d51024274fa4785225641/okhttp-urlconnection-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d737653459be272e881d51024274fa4785225641">
+        <dex dex="/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-2.5.0_f49f216479d289242efc3705887c11ed32530e8b/classes.dex" />
     </item>
 
 </items>

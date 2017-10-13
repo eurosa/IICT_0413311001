@@ -1,22 +1,22 @@
 [
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_alert.png",
-        "source": "C:\\Users\\radhason\\.android\\build-cache\\41b5f0e9e49e9caeb2c1d423448bad2454766882\\output\\res\\drawable-hdpi-v4\\ic_alert.png"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/emergency_button.xml",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-hdpi/emergency_button.xml"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ajax_loader.gif",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-hdpi\\ajax_loader.gif"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/appbackground.xml",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-hdpi/appbackground.xml"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emergency_button.xml",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-hdpi\\emergency_button.xml"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/emergency_button2.xml",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-hdpi/emergency_button2.xml"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appbackground.xml",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-hdpi\\appbackground.xml"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ajax_loader.gif",
+        "source": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/src/main/res/drawable-hdpi/ajax_loader.gif"
     },
     {
-        "merged": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\emergency_button2.xml",
-        "source": "E:\\IICT_06_01_2017\\IICT_26_05_2017\\app\\src\\main\\res\\drawable-hdpi\\emergency_button2.xml"
+        "merged": "/root/AndroidStudioProjects/IICT_0413311001_11_10_2017/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_alert.png",
+        "source": "/root/.android/build-cache/7599b5ea375baeac81b5a5f8c0f8e6a8cd75374b/output/res/drawable-hdpi-v4/ic_alert.png"
     }
 ]
